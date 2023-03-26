@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
+    crossorigin="anonymous">
+    <script src="codigo.js"></script>
+    <title>Multiplicación Egipcia</title>
+</head>
+<body>
+    <div class="container bg-danger text-light mt-4 py-3 rounded-2">
+        <h1 class="display-5">Multiplicación Egipcia</h1>
+        </div>
+        <div class="container mt-1 py-3 border border-primary rounded-2">
+        <p>Introduzca una Multiplicación para realizarla por el metodo Egipcio</p>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="numero" placeholder="Ejemplo: 27 x 29">
+            
+        </div>
+        
+        <p>
+            <button class="btn btn-outline-success" onclick="multi()">Multiplicar</button>
+        </p>
+        </div>
+        <div class="container mt-1 py-3 border border-primary rounded-2" id="result">
+            <h2 id="resultado"></h2>
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th id="nom1">DOBLE</th>
+                        <th id="nom2">DOBLE</th>
+                    </tr>
+                </thead>
+                <tbody id="contenido">
+                </tbody>
+            </table>
+        </div>
+</body>
+</html>
